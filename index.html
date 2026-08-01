@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Happy Friendship Day ❤️ Billu Badmash
+</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap"
+rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:
+linear-gradient(135deg,#040404,#14071b,#000);
+
+color:white;
+
+overflow-x:hidden;
+
+}
+
+nav{
+
+position:fixed;
+
+top:0;
+
+width:100%;
+
+padding:18px 8%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(18px);
+
+z-index:9999;
+
+}
+
+.logo{
+
+font-size:28px;
+
+font-weight:bold;
+
+color:#ff5ea8;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:white;
+
+margin-left:25px;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:20px;
+
+}
+
+.glass{
+
+width:900px;
+
+max-width:95%;
+
+padding:60px;
+
+text-align:center;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border-radius:30px;
+
+box-shadow:0 0 40px
+rgba(255,20,147,.25);
+
+}
+
+.glass h3{
+
+color:#ff7cbc;
+
+font-size:24px;
+
+}
+
+.glass h1{
+
+font-size:70px;
+
+font-family:'Great Vibes',cursive;
+
+margin-top:20px;
+
+}
+
+.typing{
+
+margin-top:20px;
+
+font-size:22px;
+
+color:#ddd;
+
+}
+
+button{
+
+margin-top:35px;
+
+padding:18px 40px;
+
+border:none;
+
+border-radius:40px;
+
+background:#ff4da6;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+button:hover{
+
+transform:scale(1.08);
+
+box-shadow:0 0 25px #ff4da6;
+
+}
+
+section{
+
+padding:110px 8%;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:50px;
+
+color:#ff69b4;
+
+margin-bottom:40px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.08);
+
+padding:35px;
+
+border-radius:25px;
+
+margin-bottom:30px;
+
+backdrop-filter:blur(15px);
+
+}
+
+.card h2{
+
+color:#ff8cc6;
+
+margin-bottom:15px;
+
+}
+
+.card p{
+
+line-height:2;
+
+font-size:18px;
+
+color:#f2f2f2;
+
+}
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+}
+
+.gallery img{
+
+width:100%;
+
+height:340px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:.5s;
+
+cursor:pointer;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 30px hotpink;
+
+}
+
+footer{
+
+padding:70px;
+
+text-align:center;
+
+background:#080808;
+
+margin-top:80px;
+
+}
+
+footer h2{
+
+font-size:35px;
+
+color:#ff6fb8;
+
+}
+
+footer p{
+
+margin-top:20px;
+
+line-height:2;
+
+}
+
+.hearts{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+overflow:hidden;
+
+}
+
+.hearts span{
+
+position:absolute;
+
+bottom:-50px;
+
+animation:float 8s linear infinite;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+opacity:0;
+
+}
+
+20%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+opacity:0;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.glass{
+
+padding:30px;
+
+}
+
+.glass h1{
+
+font-size:45px;
+
+}
+
+.title{
+
+font-size:35px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<nav>
+
+<div class="logo">
+
+Hoodie ❤️ Billu
+
+</div>
+
+<div>
+
+<a href="#story">Story</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#letter">Letter</a>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="glass">
+
+<h3>
+
+Happy Friendship Day
+
+</h3>
+
+<h1>
+
+Billu Badmash ❤️
+
+</h1>
+
+<p class="typing">
+
+Every memory with you is special...
+
+</p>
+
+<button onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'})">
+
+Begin Our Journey
+
+</button>
+
+</div>
+
+  </section>
+  <!-- ========================= -->
+<!-- STORY -->
+<!-- ========================= -->
+
+<section id="story">
+
+<h1 class="title">Our Beautiful Journey ❤️</h1>
+
+<div class="card">
+<h2>💌 2 February</h2>
+<p>
+Ek simple job message se shuru hui baat...
+Us waqt sirf professional connection tha,
+lekin mujhe nahi pata tha ki ek din tum meri life ki
+sabse important friend ban jaogi.
+</p>
+</div>
+
+<div class="card">
+<h2>🏙️ Connaught Place</h2>
+<p>
+Maine tumhe pehli baar Connaught Place me dekha tha.
+Us din ke baad pata nahi kyu,
+main tumhe dobara dekhna chahta tha.
+</p>
+</div>
+
+<div class="card">
+<h2>🛍️ Chandni Chowk</h2>
+<p>
+Phir ek din tum mummy ke saath
+Korean bag lekar golgappe kha rahi thi.
+Shayad tumhe yaad bhi na ho,
+lekin mere liye woh moment hamesha yaad rahega.
+</p>
+</div>
+
+<div class="card">
+<h2>🏡 First Visit</h2>
+<p>
+Tumhare ghar pe pehli baar aana...
+Woh raat...
+Woh baatein...
+Woh connection...
+Meri life ki sabse beautiful memories me se ek hai.
+</p>
+</div>
+
+<div class="card">
+<h2>🚉 Lucknow Railway Station</h2>
+<p>
+Jab tum Lucknow ja rahi thi aur
+hum raat 12 baje tak station par saath the...
+Us din samajh aaya ki
+kuch log sirf dost nahi hote,
+woh dil ke bahut kareeb hote hain.
+</p>
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- GALLERY -->
+<!-- ========================= -->
+
+<section id="gallery">
+
+<h1 class="title">
+Beautiful Memories 📸
+</h1>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+<img src="images/photo5.jpg">
+<img src="images/photo6.jpg">
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- VIDEOS -->
+<!-- ========================= -->
+
+<section>
+
+<h1 class="title">
+Our Little Moments 🎥
+</h1>
+
+<div class="card">
+
+<video controls width="100%">
+
+<source src="videos/video1.mp4"
+type="video/mp4">
+
+</video>
+
+</div>
+
+<div class="card">
+
+<video controls width="100%">
+
+<source src="videos/video2.mp4"
+type="video/mp4">
+
+</video>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- LETTER -->
+<!-- ========================= -->
+
+<section id="letter">
+
+<h1 class="title">
+A Letter For You 💌
+</h1>
+
+<div class="card">
+
+<p style="font-size:20px;line-height:2;text-align:center;">
+
+Dear <b>Billu Badmash</b> ❤️,
+
+Kabhi nahi socha tha ki ek simple job call
+meri life ki itni beautiful friendship ban jayegi.
+
+2 February se lekar aaj tak,
+har call, har smile aur har memory
+meri life ka priceless part ban chuki hai.
+
+Tumhare saath bitaya hua har pal,
+chahe woh Connaught Place ho,
+Chandni Chowk,
+tumhare ghar ki woh pehli raat,
+ya Lucknow station wali yaad...
+
+sab kuch mere liye hamesha special rahega.
+
+Thank you for being a part of my life.
+
+✨ Happy Friendship Day ✨
+
+<b>Forever Your Hoodie ❤️</b>
+
+</p>
+
+</div>
+
+  </section>
+  <!-- ========================= -->
+<!-- MUSIC -->
+<!-- ========================= -->
+
+<audio id="bgMusic" loop>
+    <source src="music/perfect.mp3" type="audio/mp3">
+</audio>
+
+<button id="musicBtn"
+style="
+position:fixed;
+bottom:25px;
+right:25px;
+width:65px;
+height:65px;
+border:none;
+border-radius:50%;
+background:#ff4da6;
+color:white;
+font-size:22px;
+box-shadow:0 0 25px hotpink;
+z-index:9999;
+cursor:pointer;
+">
+🎵
+</button>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+<h2>
+Happy Friendship Day ❤️
+</h2>
+
+<p>
+
+Some people come into our life
+for a reason...
+
+But you became
+
+my favourite chapter.
+
+Thank You Billu Badmash ❤️
+
+</p>
+
+<h3
+style="margin-top:30px;color:#ff6fb8;">
+
+Forever Your Hoodie ❤️
+
+</h3>
+
+</footer>
+
+<script>
+
+const music =
+document.getElementById("bgMusic");
+
+const musicBtn =
+document.getElementById("musicBtn");
+
+let play=false;
+
+musicBtn.onclick=()=>{
+
+if(play){
+
+music.pause();
+
+musicBtn.innerHTML="🎵";
+
+play=false;
+
+}else{
+
+music.play();
+
+musicBtn.innerHTML="⏸️";
+
+play=true;
+
+}
+
+}
+
+/* Floating Hearts */
+
+const heartBox=
+document.querySelector(".hearts");
+
+function makeHeart(){
+
+const h=document.createElement("span");
+
+h.innerHTML="❤️";
+
+h.style.left=Math.random()*100+"%";
+
+h.style.fontSize=
+(Math.random()*20+18)+"px";
+
+h.style.animationDuration=
+(Math.random()*5+5)+"s";
+
+heartBox.appendChild(h);
+
+setTimeout(()=>{
+
+h.remove();
+
+},9000);
+
+}
+
+setInterval(makeHeart,450);
+
+/* Typewriter */
+
+const typing=
+document.querySelector(".typing");
+
+const txt=
+"Every Moment With You Is Beautiful ❤️";
+
+typing.innerHTML="";
+
+let x=0;
+
+function write(){
+
+if(x<txt.length){
+
+typing.innerHTML+=txt.charAt(x);
+
+x++;
+
+setTimeout(write,70);
+
+}
+
+}
+
+write();
+  /* ===========================
+   SCROLL REVEAL EFFECT
+=========================== */
+
+const cards=document.querySelectorAll(".card");
+
+const reveal=new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+entry.target.style.transform="translateY(0)";
+entry.target.style.transition="1s ease";
+
+}
+
+});
+
+},{threshold:0.2});
+
+cards.forEach(card=>{
+
+card.style.opacity="0";
+card.style.transform="translateY(80px)";
+reveal.observe(card);
+
+});
+
+/* ===========================
+   IMAGE LIGHTBOX
+=========================== */
+
+const images=document.querySelectorAll(".gallery img");
+
+images.forEach(img=>{
+
+img.addEventListener("click",()=>{
+
+const overlay=document.createElement("div");
+
+overlay.style.position="fixed";
+overlay.style.top="0";
+overlay.style.left="0";
+overlay.style.width="100%";
+overlay.style.height="100%";
+overlay.style.background="rgba(0,0,0,.95)";
+overlay.style.display="flex";
+overlay.style.alignItems="center";
+overlay.style.justifyContent="center";
+overlay.style.zIndex="999999";
+
+const image=document.createElement("img");
+
+image.src=img.src;
+image.style.maxWidth="90%";
+image.style.maxHeight="90%";
+image.style.borderRadius="20px";
+image.style.boxShadow="0 0 40px hotpink";
+
+overlay.appendChild(image);
+
+overlay.onclick=()=>{
+
+overlay.remove();
+
+}
+
+document.body.appendChild(overlay);
+
+});
+
+});
+
+/* ===========================
+   FIREWORKS
+=========================== */
+
+function firework(){
+
+for(let i=0;i<25;i++){
+
+const spark=document.createElement("div");
+
+spark.innerHTML="✨";
+
+spark.style.position="fixed";
+spark.style.left=Math.random()*100+"vw";
+spark.style.top=Math.random()*100+"vh";
+spark.style.fontSize=(Math.random()*20+12)+"px";
+spark.style.pointerEvents="none";
+spark.style.transition="2s";
+spark.style.zIndex="9999";
+
+document.body.appendChild(spark);
+
+setTimeout(()=>{
+
+spark.style.transform="scale(3)";
+spark.style.opacity="0";
+
+},100);
+
+setTimeout(()=>{
+
+spark.remove();
+
+},220
+ /* ===========================
+   AUTO GALLERY ANIMATION
+=========================== */
+
+let galleryIndex = 0;
+const galleryImages = document.querySelectorAll(".gallery img");
+
+function autoGallery(){
+
+if(galleryImages.length==0) return;
+
+galleryImages.forEach(img=>{
+
+img.style.transform="scale(1)";
+img.style.filter="brightness(80%)";
+
+});
+
+galleryImages[galleryIndex].style.transform="scale(1.08)";
+galleryImages[galleryIndex].style.filter="brightness(100%)";
+galleryImages[galleryIndex].style.boxShadow="0 0 35px hotpink";
+
+galleryIndex++;
+
+if(galleryIndex>=galleryImages.length){
+
+galleryIndex=0;
+
+}
+
+}
+
+setInterval(autoGallery,2500);
+
+/* ===========================
+   SURPRISE MESSAGE
+=========================== */
+
+setTimeout(()=>{
+
+alert(
+
+"❤️ Happy Friendship Day Billu Badmash ❤️\n\nThank you for being the most beautiful part of my life.\n\nForever Your Hoodie ❤️"
+
+);
+
+},8000);
+
+/* ===========================
+   FINAL SCREEN
+=========================== */
+
+setTimeout(()=>{
+
+const ending=document.createElement("div");
+
+ending.innerHTML=`
+
+<div style="
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.95);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+z-index:999999;
+padding:25px;
+text-align:center;
+
+">
+
+<h1 style="
+font-size:60px;
+color:#ff5ea8;
+font-family:'Great Vibes',cursive;
+">
+
+Happy Friendship Day ❤️
+
+</h1>
+
+<h2 style="
+margin-top:20px;
+font-size:42px;
+color:white;
+">
+
+Billu Badmash
+
+</h2>
+
+<p style="
+margin-top:30px;
+max-width:800px;
+font-size:22px;
+line-height:2;
+">
+
+Thank you for every smile,
+every memory,
+every laugh,
+every little moment.
+
+No matter where life takes us...
+
+You will always remain
+one of the most beautiful chapters
+of my life.
+
+✨❤️✨
+
+</p>
+
+<h2 style="
+margin-top:35px;
+color:#ff6fb8;
+">
+
+Forever Your Hoodie ❤️
+
+</h2>
+
+</div>
+
+`;
+
+document.body.appendChild(ending);
+
+},90000);
+
+console.log("Friendship Day Website Loaded Successfully ❤️");
+
+</script>
+
+</body>
+</html>
